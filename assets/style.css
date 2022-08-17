@@ -1,3 +1,43 @@
+/* setting the universal selectors which will match all elements on page */
+* {
+    font-family:'Times New Roman', Times, serif
+}
+
+/* setting the root with styles that I'll use again */
 :root {
-    
+ --blue: lightblue;
+ --white: white;
+ --gray: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background: var(--blue);
+    color: var(--gray);
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 12pt;
+}
+
+.header.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--gray);
+}
+
+
+
+
+footer {
+    background: var(--blue);
 }
