@@ -9,7 +9,7 @@
  --white: white;
  --gray: rgb(51, 51, 51);
 }
-
+/* stylings for the header section */
 .header {
     display: flex;
     justify-content: space-between;
@@ -28,23 +28,56 @@
     font-size: 12pt;
 }
 
+/* stylings for the body section */
 .hawaii-sunset {
     width: 100%
 }
 
-.about.me.body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+/* stylings for the 'About Me' section */
+.about-me {
+    background-color: var(--blue);
+}
+
+.header-about-me {
+    font-size: 40px;
+    padding: 20px;
     color: var(--gray);
 }
 
+.mal-pic {
+}
 
+.p-about-me {
+}
 
+/* stylings for the My Work section */
+.my-work {
+    background-color: var(--blue);
+}
 
+.my-work img {
+    display: grid;
+}
 
+/* stylings for the My Work section */
+.contact-me {
+    background-color: var(--blue);
+}
 
+.contact-me-header {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: var(--gray);
+}
 
-footer {
-    background: var(--blue);
+.contact-me ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14pt;
+    padding-bottom: 20px;
+    padding-right: 40px;
 }
