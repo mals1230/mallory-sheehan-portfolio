@@ -55,11 +55,25 @@
     background-color: var(--blue);
 }
 
+.my-work-header {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: var(--gray);
+}
+
 .my-work img {
     display: grid;
 }
 
-/* stylings for the My Work section */
+.first-project {
+}
+
+.placeholder {
+
+}
+
+/* stylings for the Contact Me section */
 .contact-me {
     background-color: var(--blue);
 }
