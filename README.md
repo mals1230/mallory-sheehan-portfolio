@@ -5,12 +5,12 @@ I've included my name and 3 different sections about myself - an 'About Me' sect
 
 I had some challenges with this assignment - mainly with flex box and making sure that the page will be responsive to all screens. 
 
-But I also overcame a few challenges, for example, I figured out how to link and image to redirect you to a site. In this came, I linked the screenshot of the horiseon-refactor project to my live site! 
+But I also overcame a few challenges, for example, I figured out how to link and image to redirect you to a site. In this case, I linked the screenshot of the horiseon-refactor project to my live site! 
 
 Screenshot of deployed site: 
 <img src="./assets/MallorySheehanPortfolio.png">
 
-URL of deploted site: 
+URL of deployed site: 
 https://mals1230.github.io/mallory-sheehan-portfolio/
 
 GitHub repo: 
